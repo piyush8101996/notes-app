@@ -1,0 +1,15 @@
+.note{
+    height: 200px;
+    background-color: indianred;
+    padding: 1rem;
+    /*margin-bottom: 10px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-wrap: break-word;  
+}
+.note_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

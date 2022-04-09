@@ -1,0 +1,35 @@
+.addnote{
+    min-height: 200px;
+    padding: 1rem ;
+    margin: 10px;
+    flex-direction:row;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: cadetblue;
+   
+}
+.addnote_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+textarea{
+    outline: none;
+    border: none;
+    resize: none;
+    background-color: cadetblue;
+    word-break: keep-all;
+    overflow: hidden;
+}
+textarea:focus{
+    outline: none;
+    cursor: pointer;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color: crimson;
+    padding: 5px 10px 5px 10px;
+}
